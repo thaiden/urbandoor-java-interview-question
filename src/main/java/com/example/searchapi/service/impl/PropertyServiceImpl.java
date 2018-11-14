@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.Collections;
 import java.util.List;
-import java.util.UUID;
 
 @Service
 public class PropertyServiceImpl implements PropertyService {
@@ -22,7 +21,7 @@ public class PropertyServiceImpl implements PropertyService {
     }
 
     @Override
-    public Property getProperty(UUID id) {
+    public Property getProperty(Long id) {
         // TODO: impl
         return null;
     }

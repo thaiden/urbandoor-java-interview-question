@@ -14,9 +14,13 @@ This is sample starter app
  * Implement ability to search for properties and etc via RESTful API
  * Implement ability to filter result via API 
 
-# How to run
+# How to run dependencies
 
 ### To Start dependencies
+
+```
+docker-compose -f docker-postgres.yml
+```
 
 
 ### To build and run tests
