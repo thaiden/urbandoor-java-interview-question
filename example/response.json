@@ -1,0 +1,141 @@
+[
+  {
+    "amenities": [
+      {
+        "name": "Pool",
+        "type": "pool"
+      },
+      {
+        "name": "Parking",
+        "type": "parking"
+      },
+      {
+        "name": "BBQ",
+        "type": "bbq"
+      }
+    ],
+    "policies": {
+      "pets": true
+    },
+    "property": {
+      "name": "500 Sansome St"
+    },
+    "unit_type": {
+      "baths": 1,
+      "beds": 1
+    }
+  },
+  {
+    "amenities": [
+      {
+        "name": "Gym",
+        "type": "gym"
+      },
+      {
+        "name": "Parking",
+        "type": "parking"
+      }
+    ],
+    "policies": {
+      "pets": false
+    },
+    "property": {
+      "name": "123 First Ave"
+    },
+    "unit_type": {
+      "baths": 1,
+      "beds": 0
+    }
+  },
+  {
+    "amenities": [
+      {
+        "name": "Gym",
+        "type": "gym"
+      },
+      {
+        "name": "Parking",
+        "type": "parking"
+      },
+      {
+        "name": "Laundry",
+        "type": "laundry"
+      }
+    ],
+    "policies": {
+      "pets": false
+    },
+    "property": {
+      "name": "456 Fourth Blvd"
+    },
+    "unit_type": {
+      "baths": 2,
+      "beds": 2
+    }
+  },
+  {
+    "amenities": [
+      {
+        "name": "Gym",
+        "type": "gym"
+      },
+      {
+        "name": "Parking",
+        "type": "parking"
+      },
+      {
+        "name": "Playground",
+        "type": "playground"
+      }
+    ],
+    "policies": {
+      "pets": false
+    },
+    "property": {
+      "name": "789 Second St"
+    },
+    "unit_type": {
+      "baths": 1,
+      "beds": 1
+    }
+  },
+  {
+    "amenities": [
+      {
+        "name": "Gym",
+        "type": "gym"
+      },
+      {
+        "name": "Parking",
+        "type": "parking"
+      },
+      {
+        "name": "BBQ",
+        "type": "bbq"
+      }
+    ],
+    "policies": {
+      "pets": true
+    },
+    "property": {
+      "name": "283 Third Ave"
+    },
+    "unit_type": {
+      "baths": 2,
+      "beds": 3
+    }
+  },
+  {
+    "amenities": [],
+    "policies": {
+      "pets": true
+    },
+    "property": {
+      "name": "99 Fifth St"
+    },
+    "unit_type": {
+      "baths": 1,
+      "beds": 0
+    }
+  }
+]

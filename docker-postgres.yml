@@ -1,0 +1,26 @@
+version: '2'
+services:
+  postgres:
+    image: postgres:9.6
+    volumes:
+    - postgres:/var/lib/postgresql/data
+    environment:
+      PGDATA: /var/lib/postgresql/data/db
+      POSTGRES_USER: postgres
+      POSTGRES_DB: urbandoor
+    ports:
+    - "5432:5432"
+  psql:
+    image: postgres:9.6
+    links:
+    - postgres
+    entrypoint: []
+    command: [psql]
+    environment:
+      PGHOST: postgres
+      PGUSER: postgres
+      PGDATABASE: urbandoor
+
+volumes:
+  postgres:
+  data:
