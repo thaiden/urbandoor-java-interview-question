@@ -1,23 +1,21 @@
 package com.example.searchapi.controller;
 
-import com.example.searchapi.dto.SearchRequest;
 import com.example.searchapi.dto.SearchResult;
-import com.example.searchapi.service.PropertyService;
+import com.example.searchapi.service.UnitService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 public class SearchContoller {
 
     @Autowired
-    PropertyService propertyService;
+    UnitService unitService;
 
-    @PostMapping("/search")
-    public SearchResult search(@RequestBody SearchRequest requestBody) {
+    @GetMapping("/search")
+    public SearchResult search() {
 
-        return null;
+        return new SearchResult(unitService.getUnits());
     }
 }
 
